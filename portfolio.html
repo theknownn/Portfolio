@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharva Jadhav</title>
+    <style>
+    body {
+    background: rgb(241, 243, 244);
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    header {
+        background-color: #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fffdfd;
+    font-size: 1.2em;
+}
+nav a:hover {
+    color: #ff0000;
+}
+
+
+    .home-section{
+        background-image: url('img/desktop2.jpg');
+        background-size: cover;
+    background-position: center;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.8;
+    }
+    .home-section h2{
+        opacity: 2.0;
+        color:rgb(0, 0, 0);
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+    .home-section p{
+        opacity: 2.0;
+        color: black;
+        font-size: 2rem;
+    }
+    .about-section{
+        text-align: center;
+        padding: 50px 0;
+    }
+    .about-content{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .about-details{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .image img{
+    max-width: 150%;
+    border-radius: 45%;
+    margin-right: 30px;
+    }
+    .about-description{
+        width: 50%;
+        text-align: left;
+    }
+
+    .about-description p{
+        font-size: 1.2em;
+    }
+    .service-section{
+        text-align: center;
+        padding: 50px 0;
+    }
+    .service-section h2{
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .service-box{
+        display:flex;
+        justify-content: space-around;
+    }
+    .service{
+        text-align: center;
+    }
+    .service img{
+        width: 80px;
+    }
+    .service p{
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+    .contact-section {
+    height: calc(100vh - 64px);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.form {
+    max-width: 600px;
+    height:  50%;
+    margin: 100px auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.input,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.footer-section{
+    background-color: #555;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.icon-link{
+    margin: 0 10px;
+}
+.icon-link img{
+    width: 30px;
+}
+.copyright{
+    font-size: 0.9em;
+}
+    </style>
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="img\logo.png" alt="logo" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+    </header>
+        <!---Home Section--->
+        <section id="home" class="home-section">
+            <h2><b>Welcome to our page!</b></h2>
+            <h2><b>HI, I AM ATHARVA JADHAV</b></h2>
+            <p><b>UI/UX DESIGNER AND WEB DEVELOPER</b></p>
+        </section>
+
+        <!---About Section--->
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <div class="about-details">
+                    <div class="image">
+                        <img src="img\atharva.jpg" alt="image">
+                    </div>
+                    <div class="about-description">
+                        <p>My name is <b>Atharva Jadhav</b>, and I am currently pursuing a bachelor's degree in Computer Science.
+                            With a passion for web development, I have acquired knowledge in HTML and CSS to create visually
+                            appealing and user-friendly websites. I aspire to combine my technical skills with a keen eye for design
+                            as a UI/UX designer and web developer.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!---Service Section--->
+        <section id="services" class="service-section">
+            <h2>Services</h2>
+            <div class="service-box">
+                <div class="service">
+                    <img src="img\webdev.png" alt="web-dev icon">
+                    <p><b>Web development</b></p>
+                    <p>Our web development team focuses on creating seamless online experiences.
+                        From crafting visually engaging user interfaces to implementing robust back-end functionalities.
+                        we specialize in building websites that not only captivate visitors but also deliver high-performance and user satisfaction. </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service">
+                    <img src="img\uiux.png" alt="UI/UX icon">
+                    <p><b>UI design & UX research</b></p>
+                    <p>We specialize in creating intuitive and visually appealing user interfaces,coupled with seamless user experiences.
+                        From wireframing to prototyping,our design process ensures that every interaction on your website is both delightful and user-friendly,
+                        enhancing overall engagement.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service">
+                    <img src="img\maintenance.png" alt="maintenance icon">
+                    <p><b>Maintenance</b></p>
+                    <p>Ensure the longevity and optimal performance of your website with our maintenance team.
+                        Ensure the longevity and optimal performance of your website with our maintenance service.
+                        Ensure the longevity and optimal performance of your website with our maintenance service.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!---Contact Section--->
+        <section id="contact" class="contact-section">
+            <form class="form">
+                <div class="title">Contact us</div>
+                <input type="text" placeholder="Your email" class="input">
+                <textarea placeholder="Your message"></textarea>
+                <button>Submit</button>
+            </form>
+        </section>
+
+        <!---Footer Section--->
+        <footer class="footer-section">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/atharva_jadhav_2798/" target="_blank" class="icon-link"><img src="img\instagram.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/atharv.jadhav.9659/" target="_blank" class="icon-link"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="https://github.com/theknownn" target="_blank" class="icon-link"><img src="img\github.png" alt="GitHub"></a>
+                <a href="https://wa.me/+919689829068" target="_blank" class="icon-link"><img src="img/wp.png" alt="WhatsApp"></a>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Atharva Jadhav. All rights reserved. | Designed and developed by Atharva Jadhav.
+            </div>
+        </footer>
+
+        <script>
+            document.addEventListener(DOMContentLoaded, function(){
+                const links = document.querySelectorAll('a[href="#"]');
+                links.forEach(link => {
+                    link.addEventListener("click", function (e) {
+                        e.preventDefault();
+
+                        const targetId = link.getAttribute("href").substring(1);
+                        const targetElement = document.getElementById(targetId);
+
+                        if(targetElement) {
+                            targetElement.scrollIntoView({
+                                behavior: "smooth"
+                            });
+                        }
+            });
+        });
+            });
+        </script>
+</body>
+</html>
