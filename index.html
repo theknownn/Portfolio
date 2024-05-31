@@ -122,6 +122,77 @@ nav a:hover {
         font-size: 1.2em;
         margin-top: 10px;
     }
+
+    .project-section{
+        margin-top: auto;
+        margin-bottom: 50px;
+        max-width: 100%;
+        padding: 50px;
+    }
+
+    .project-section h2{
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .project{
+        margin-top: 50px;
+        width: 20%;
+        height: auto;
+        margin-bottom: 50px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    }
+    .project:hover{
+        border-radius: 20px;
+        background-color: #ffffff;
+    }
+
+    .project img{
+        margin-top: 1px;
+        max-width: 50%;
+        max-height:50px;
+    }
+
+    .project h2{
+        margin-top: auto;
+        align-items: justify;
+        font-size: 1em;
+        line-height: normal;
+    }
+    .project p{
+        text-justify: justify;
+        font-size: 15px;
+        line-height: normal;       
+    }
+
+    .project a{
+        margin-top: 10px;
+        color: #333;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 10px 15px;
+        transition: background-color 0.3s;
+    }
+    .project a:hover{
+        border-radius: 20px;
+        color: #f4f4f4;
+        background-color: #000000;
+    }
+
+
+
+
     .contact-section {
     height: calc(100vh - 64px);
     text-align: center;
@@ -198,6 +269,7 @@ button:hover {
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About us</a></li>
                     <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -208,6 +280,7 @@ button:hover {
             <h2><b>Welcome to our page!</b></h2>
             <h2><b>HI, I AM ATHARVA JADHAV</b></h2>
             <p><b>UI/UX DESIGNER AND WEB DEVELOPER</b></p>
+            
         </section>
 
         <!---About Section--->
@@ -258,6 +331,36 @@ button:hover {
                         Ensure the longevity and optimal performance of your website with our maintenance service.
                         Ensure the longevity and optimal performance of your website with our maintenance service.
                     </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="project-section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="img/website.png" alt="Project 1">
+                    <h2>theknownn developer's</h2>
+                    <p>This project involves creating a website for TheKnownn Developer's. It showcases various development projects, blogs, and resources for developers.</p>
+                    <a href="https://theknownn.github.io/theknownn/">View Project</a>
+                </div>
+                <div class="project">
+                    <img src="img/profilecard.png" alt="Project 2">
+                    <h2>ProfileCard</h2>
+                    <p>This project is a profile card containing my personal details. It includes my name, contact information.</p>
+                    <a href="https://theknownn.github.io/Profile/">View Project</a>
+                </div>
+                <div class="project">
+                    <img src="img/coverpage.png" alt="Project 3">
+                    <h2>Cover Page</h2>
+                    <p>The cover page for Makeat, a food website. This page highlights the site's main features, including recipe collections.</p>
+                    <a href="https://theknownn.github.io/cover_page/">View Project</a>
+                </div>
+                <div class="project">
+                    <img src="img/portfolio.png" alt="Project 4">
+                    <h2>Portfolio</h2>
+                    <p>This is a portfolio showcasing my work and skills. It includes details about my projects, experience, and contact information.</p>
+                    <a href="https://theknownn.github.io/Portfolio/">View Project</a>
                 </div>
             </div>
         </section>
